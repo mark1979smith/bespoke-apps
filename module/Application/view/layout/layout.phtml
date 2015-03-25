@@ -3,53 +3,159 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <?php echo $this->headTitle('ZF2 '. $this->translate('Skeleton Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+        <?php echo $this->headTitle('ZF2 '. $this->translate('Home'))->setSeparator(' - ')->setAutoEscape(false) ?>
 
         <?php echo $this->headMeta()
             ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendName('format-detection', 'telephone=no')
             ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
         ?>
 
         <!-- Le styles -->
-        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
-                        ->prependStylesheet($this->basePath('css/style.css'))
-                        ->prependStylesheet($this->basePath('css/bootstrap-theme.min.css'))
-                        ->prependStylesheet($this->basePath('css/bootstrap.min.css')) ?>
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/images/favicon.ico'))
+                        ->appendStylesheet($this->basePath('css/grid.css'))
+                        ->appendStylesheet($this->basePath('css/style.css'))
+                        ->appendStylesheet($this->basePath('css/booking.css'))
+                        ->appendStylesheet($this->basePath('css/jquery.fancybox.css')) ?>
 
         <!-- Scripts -->
         <?php echo $this->headScript()
-            ->prependFile($this->basePath('js/bootstrap.min.js'))
-            ->prependFile($this->basePath('js/jquery.min.js'))
-            ->prependFile($this->basePath('js/respond.min.js'), 'text/javascript', array('conditional' => 'lt IE 9',))
-            ->prependFile($this->basePath('js/html5shiv.js'),   'text/javascript', array('conditional' => 'lt IE 9',))
+            ->appendFile($this->basePath('js/jquery.js'))
+            ->appendFile($this->basePath('js/jquery-migrate-1.2.1.js'))
+            ->appendFile($this->basePath('js/html5shiv.js'),   'text/javascript', array('conditional' => 'lt IE 9',))
+            ->appendFile($this->basePath('js/device.min.js'))
         ; ?>
 
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="<?php echo $this->url('home') ?>"><img src="<?php echo $this->basePath('img/zf2-logo.png') ?>" alt="Zend Framework 2"/>&nbsp;<?php echo $this->translate('Skeleton Application') ?></a>
+    <div class="page">
+        <!--========================================================
+                                  HEADER
+        =========================================================-->
+        <header id="home">
+            <div class="header_panel">
+                <div class="container">
+                    <div class="brand">
+                        <h1 class="brand_name"><a href="../"><span class="icon flaticon-cup55"></span>wrico</a></h1>
+                        <p class="brand_slogan">Landing page theme</p>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
             </div>
-        </nav>
-        <div class="container">
-            <?php echo $this->content; ?>
-            <hr>
-            <footer>
-                <p>&copy; 2005 - <?php echo date('Y') ?> by Zend Technologies Ltd. <?php echo $this->translate('All rights reserved.') ?></p>
-            </footer>
-        </div> <!-- /container -->
-        <?php echo $this->inlineScript() ?>
+
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <div class="box-1">
+                            <h2><em>Create cute websites </em><br>fast with us!</h2>
+                            <ul class="marked-list">
+                                <li>
+                                    <h3><a href="#">Conversion rate guided</a></h3>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </li>
+                                <li>
+                                    <h3><a href="#">Fully responsive</a></h3>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </li>
+                                <li>
+                                    <h3><a href="#">Designed to sell</a></h3>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid_6 bg-1">
+                        <div class="box-2">
+                            <h2>Request a quote now!</h2>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <form id="bookingForm" class="booking-form">
+                                <div class="tmInput">
+                                    <input name="Name" placeHolder="Name" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+                                </div>
+                                <div class="tmInput">
+                                    <input name="Email:" placeHolder="E-mail:" type="text" data-constraints='@NotEmpty @Required @Email'>
+                                </div>
+                                <select name="Topic" class="tmSelect manual" data-constraints="@NotEmpty @Required">
+                                    <option>'Tell us what you need'</option>
+                                    <option>option 1</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                </select>
+                                <div class="tmTextarea">
+                                    <textarea name="Details" placeHolder="Details" data-constraints='@NotEmpty @Required'></textarea>
+                                </div>
+                                <a href="#" class="btn" data-type="submit">Get a quote!</a>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!--========================================================
+                                  CONTENT
+        =========================================================-->
+
+        <?= $this->content ?>
+
+        <!--========================================================
+                                  FOOTER
+        =========================================================-->
+        <footer>
+            <div class="well bg-2">
+                <section class="section-8">
+                    <ul>
+                        <li>
+                            <a href='#'><span class="fa fa-facebook"></span></a>
+                        </li>
+                        <li>
+                            <a href='#'><span class="fa fa-twitter"></span></a>
+                        </li>
+                        <li>
+                            <a href='#'><span class="fa fa-skype"></span></a>
+                        </li>
+                        <li>
+                            <a href='#'><span class="fa fa-google-plus"></span></a>
+                        </li>
+                        <li>
+                            <a href='#'><span class="fa fa-instagram"></span></a>
+                        </li>
+                        <li>
+                            <a href='#'><span class="fa fa-vimeo-square"></span></a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="well bg-3">
+                <section class="section-9 container" id="subscribe">
+                    <div class="box">
+                        <h3>Subscribe</h3>
+
+                        <form id="subscribe-form" class="subscribe-form">
+                            <div class="success">Your subscription request has been sent!</div>
+                            <label class="email">
+                                <input type="email" value="Enter your email">
+                                <span class="error">*Invalid email.</span>
+                            </label>
+                            <a data-type="submit" href="#" class="btn">Subscribe</a>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <em>
+                        <a href="../"><span class="icon flaticon-cup55"></span> wrico</a>
+                    </em>
+                    © <span id="copyright-year"></span> |
+                    <a href="#">Privacy Policy</a>
+                    <!-- {%FOOTER_LINK} -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <?php echo $this->inlineScript() ?>
+    <script src="js/script.js"></script>
     </body>
 </html>
