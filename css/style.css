@@ -1,0 +1,935 @@
+@charset "UTF-8";
+@import url(animate.css);
+@import url(general-ui.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,600,700);
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_variables\.scss}line{font-family:\0000321}}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #888888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_variables\.scss}line{font-family:\0000329}}
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_variables\.scss}line{font-family:\0000337}}
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #333333; }
+
+/*========================================================
+                      Main Styles
+=========================================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000314}}
+body {
+  background: #f7f7f7;
+  -webkit-text-size-adjust: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000320}}
+img {
+  max-width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000335}}
+h3 a:hover {
+  color: #65c958; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000340}}
+h4 {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #65c958; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000351}}
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000356}}
+  a:active {
+    background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000360}}
+  a:focus {
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000367}}
+a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000372}}
+blockquote {
+  position: relative;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  padding: 0 0 0 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000378}}
+  blockquote:before {
+    content: "";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 34px;
+    line-height: 34px;
+    color: #65c958; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000390}}
+.fa {
+  line-height: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\0000395}}
+[class*='fa-']:before {
+  font-family: "FontAwesome"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003100}}
+.page {
+  overflow: hidden;
+  min-height: 500px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003104}}
+  .lt-ie9 .page {
+    min-width: 1200px; }
+
+/*========================================================
+                      Main Layout
+==========================================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003112}}
+* + [class*="section-"] {
+  margin-top: 72px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003113}}
+* + .section-3 {
+  margin-top: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003114}}
+* + h3 {
+  margin-top: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003115}}
+* + ul {
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003116}}
+* + blockquote {
+  margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003117}}
+* + .btn {
+  margin-top: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003118}}
+h2 + * {
+  margin-top: 26px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003119}}
+h2 + p {
+  margin-top: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003120}}
+h2 + ul {
+  margin-top: 39px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003121}}
+h3 + p {
+  margin-top: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003122}}
+.row + .row {
+  margin-top: 41px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003124}}
+.section-6 h2 + * {
+  margin-top: 32px; }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003127}}
+  * + [class*="section-"] {
+    margin-top: 40px; } }
+/*=======================================================
+                       Components
+=========================================================*/
+/*==================     Brand     ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003136}}
+.brand {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_mixins\.scss}line{font-family:\00003222}}
+  .brand:before, .brand:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_mixins\.scss}line{font-family:\00003229}}
+  .brand:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003140}}
+  .brand_name {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    padding: 2px 0 0 39px;
+    font-size: 33px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003153}}
+  .brand_slogan {
+    float: left;
+    margin: 19px 0 0 0;
+    padding: 0 0 0 6px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #888888; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003163}}
+  .brand .icon {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    font-size: 48px;
+    line-height: 33px;
+    color: #65c958; }
+
+/*==================     Icons     ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003174}}
+.icon {
+  color: #65c958; }
+
+/*==================  Marked List  ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003180}}
+.marked-list li {
+  position: relative;
+  font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003184}}
+  .marked-list li:before {
+    content: ' ';
+    position: relative;
+    left: 0;
+    top: 0;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: #65c958; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003195}}
+  .marked-list li + li {
+    margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003200}}
+.marked-list a:hover {
+  color: #65c958; }
+
+/*==================    Buttons    ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003206}}
+.btn {
+  display: inline-block;
+  padding: 0px 38px 0px 38px;
+  line-height: 42px;
+  color: #ffffff;
+  background: #65c958;
+  font-weight: 400;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  border-color: #55a74b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003216}}
+  .btn:hover {
+    background: #333333;
+    border-color: transparent; }
+
+/*==================    Boxes    ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003223}}
+.box-1 {
+  padding: 19px 0 40px 0;
+  text-align: left;
+  color: #ffffff; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003223}}
+    .box-1 {
+      padding-top: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003232}}
+  .box-1 h2 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003238}}
+    .box-1 h2 em {
+      font-size: 45px;
+      line-height: 63px;
+      font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003246}}
+  .box-1 .marked-list li {
+    position: relative;
+    padding-left: 59px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003250}}
+    .box-1 .marked-list li:before {
+      content: '\e01b';
+      position: absolute;
+      left: -12px;
+      top: -7px;
+      font-weight: 400;
+      font-size: 66px;
+      line-height: 66px;
+      font-family: 'general-ui';
+      color: #65c958; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003262}}
+    .box-1 .marked-list li + li {
+      margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003267}}
+  .box-1 .marked-list a {
+    color: #65c958; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003268}}
+  .box-1 .marked-list a:hover {
+    color: #888888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003272}}
+.box-2 {
+  padding: 32px 39px 0 39px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003276}}
+  .box-2 .btn {
+    background: #cc181e;
+    border-color: #b7161b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003279}}
+    .box-2 .btn:hover {
+      background: #333333;
+      border-color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003285}}
+  .box-2 * + p {
+    margin-top: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003289}}
+  .box-2_wrapper {
+    display: table-cell;
+    vertical-align: bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003295}}
+.box-3 {
+  position: relative;
+  padding-left: 90px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003299}}
+  .box-3 .icon {
+    position: absolute;
+    top: -9px;
+    left: -4px;
+    font-size: 82px;
+    line-height: 82px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003305}}
+    .box-3 .icon.flaticon-hand226 {
+      top: -10px;
+      left: -9px;
+      font-size: 90px;
+      line-height: 90px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003311}}
+    .box-3 .icon.flaticon-bulb19 {
+      top: -10px;
+      left: -6px;
+      font-size: 87px;
+      line-height: 87px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003317}}
+    .box-3 .icon.flaticon-gift84 {
+      top: -7px;
+      left: -2px;
+      font-size: 76px;
+      line-height: 76px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003323}}
+    .box-3 .icon.flaticon-sheet3 {
+      top: -6px;
+      left: 4px;
+      font-size: 77px;
+      line-height: 77px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003329}}
+    .box-3 .icon.flaticon-screwdriver26 {
+      top: -7px;
+      left: -2px;
+      font-size: 75px;
+      line-height: 75px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003336}}
+    .box-3 .icon + * {
+      margin-top: 0; }
+
+/*==================   Tumbnail    ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\000039}}
+.thumb {
+  display: block;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000314}}
+  .thumb img {
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000318}}
+  .thumb_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    color: #fff;
+    background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000329}}
+    .thumb_overlay:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      font: 400 17px "FontAwesome";
+      line-height: 17px;
+      margin-top: -8.5px;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000340}}
+      .lt-ie9 .thumb_overlay:after {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000344}}
+    .thumb_overlay:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 62px;
+      height: 62px;
+      margin-left: -31px;
+      margin-top: -31px;
+      background: #65c958;
+      border-bottom: 3px solid transparent;
+      border-radius: 50%;
+      border-color: #55a74b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000362}}
+  .thumb:hover .thumb_overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_mixins\.scss}line{font-family:\0000335}}
+    .lt-ie9 .thumb:hover .thumb_overlay {
+      background: none;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#80000000')";
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#80000000');
+      zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000366}}
+    .lt-ie9 .thumb:hover .thumb_overlay:before {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/effects\/_thumb\.scss}line{font-family:\0000371}}
+  .thumb:hover img {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+/*==================     ToTop     ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/_toTop\.scss}line{font-family:\000032}}
+.toTop {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  color: #fff;
+  background: #333333;
+  position: fixed;
+  right: 66px;
+  bottom: 180px;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  z-index: 20;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/_toTop\.scss}line{font-family:\0000322}}
+  .toTop:hover {
+    background: #65c958;
+    color: #fff;
+    text-decoration: none; }
+
+@media only screen and (max-width: 1399px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/_toTop\.scss}line{font-family:\0000330}}
+  .toTop {
+    display: none !important; } }
+/*==================   Accordion    ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\000032}}
+.accordion {
+  padding: 6px 0 0 0;
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\000035}}
+  .accordion_header {
+    margin: 0 0 0 65px;
+    padding: 11px 0 10px 0;
+    cursor: pointer;
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\0000312}}
+  .accordion_cnt {
+    margin: 17px 0 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\0000317}}
+.accordion_cnt + .accordion_header {
+  margin-top: 23px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\0000321}}
+.ui-accordion-header {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/widgets\/content\/_accordion\.scss}line{font-family:\0000324}}
+  .ui-accordion-header:after {
+    position: absolute;
+    top: 0;
+    left: -65px;
+    width: 45px;
+    height: 42px;
+    text-align: center;
+    background: #65c958;
+    content: 'Q';
+    font: 600 25px/40px "Ubuntu", sans-serif;
+    color: #ffffff;
+    border-bottom: 3px solid transparent;
+    border-radius: 3px;
+    border-color: #55a74b; }
+
+/*==================     Subscribe Form     ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000317}}
+.subscribe-form {
+  position: relative;
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000320}}
+  .subscribe-form label {
+    display: block;
+    position: relative;
+    padding: 9px 10px 9px;
+    width: 490px;
+    background: none;
+    border-radius: 3px;
+    border: 3px solid #f0f0f0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000320}}
+      .subscribe-form label {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000335}}
+  .subscribe-form input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    vertical-align: baseline;
+    box-shadow: none;
+    color: #888888;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-font: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000356}}
+.error {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  font-size: 10px;
+  color: #f00;
+  overflow: hidden;
+  height: 0px;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000367}}
+label.invalid .error {
+  height: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000375}}
+.success {
+  display: none;
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  top: -3px;
+  bottom: -3px;
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+  background: #65c958;
+  z-index: 2; }
+
+@media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/components\/forms\/_subscribe-form\.scss}line{font-family:\0000394}}
+  .subscribe-form label {
+    width: 100%; } }
+/*========================================================
+                     HEADER  Section
+==========================================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003353}}
+header {
+  background: #333333; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003353}}
+    header {
+      text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003358}}
+  header .brand {
+    display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003364}}
+.header_panel {
+  padding: 20px 0 25px 0;
+  margin: 0 0 69px 0;
+  background: #ffffff;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_mixins\.scss}line{font-family:\00003222}}
+  .header_panel:before, .header_panel:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/include\/_mixins\.scss}line{font-family:\00003229}}
+  .header_panel:after {
+    clear: both; }
+
+/*========================================================
+                     CONTENT  Styles
+=========================================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003375}}
+main {
+  display: block;
+  background: #ffffff; }
+
+/*==================   Sections     ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003381}}
+.section-1 {
+  padding: 98px 0 79px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003383}}
+.section-2 {
+  padding: 80px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003386}}
+  .section-2 .img {
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003389}}
+  .section-2 ul li {
+    position: relative;
+    padding-left: 48px;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #65c958; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003397}}
+    .section-2 ul li + li {
+      margin-top: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003401}}
+    .section-2 ul li .icon {
+      position: absolute;
+      top: 0;
+      left: -6px;
+      font-size: 39px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003409}}
+  .section-2 ul a:hover {
+    color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003415}}
+.section-3 {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003418}}
+  .section-3 .box {
+    float: left;
+    width: 33.2%;
+    background: #333333;
+    margin-left: 0.2%;
+    padding: 63px 0 81px 0;
+    text-align: center;
+    color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003427}}
+    .section-3 .box h3 {
+      color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003428}}
+    .section-3 .box p {
+      padding: 0 65px; }
+      @media (max-width: 979px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003428}}
+        .section-3 .box p {
+          padding: 0 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003435}}
+    .section-3 .box h3 + p {
+      margin-top: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003438}}
+    .section-3 .box .icon {
+      font-size: 92px;
+      line-height: 92px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003442}}
+      .section-3 .box .icon.flaticon-download3 {
+        font-size: 108px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003447}}
+    .section-3 .box:first-child {
+      background: #65c958;
+      margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003451}}
+      .section-3 .box:first-child .icon {
+        color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003452}}
+      .section-3 .box:first-child a:hover {
+        color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003457}}
+    .section-3 .box:last-child {
+      color: #888888;
+      background: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003460}}
+      .section-3 .box:last-child h3 {
+        color: #333333; }
+    @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003418}}
+      .section-3 .box {
+        float: none;
+        width: 100%;
+        margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003468}}
+        .section-3 .box + .box {
+          margin-top: 20px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003415}}
+    .section-3 {
+      width: 420px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003415}}
+    .section-3 {
+      width: 300px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003489}}
+.section-4 {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003492}}
+  .section-4 .box {
+    padding: 24px 0 32px 0;
+    border: 3px solid #f0f0f0;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003497}}
+    .section-4 .box h3 {
+      color: #65c958; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003501}}
+    .section-4 .box em {
+      margin-top: -8px;
+      display: inline-block;
+      font-size: 35px;
+      color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003508}}
+    .section-4 .box hr {
+      border: none;
+      height: 3px;
+      background: #f0f0f0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003514}}
+    .section-4 .box h3 + p {
+      margin-top: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003515}}
+    .section-4 .box * + hr {
+      margin-top: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003516}}
+    .section-4 .box hr + * {
+      margin-top: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003521}}
+.section-5 {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003524}}
+  .section-5 h2 + .box {
+    margin-top: 34px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003526}}
+  .section-5 .box {
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003529}}
+    .section-5 .box .thumb {
+      display: block;
+      float: left;
+      width: 25%; }
+      @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003529}}
+        .section-5 .box .thumb {
+          width: 50%; } }
+      @media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003529}}
+        .section-5 .box .thumb {
+          width: 100%; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003521}}
+    .section-5 {
+      width: 420px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003521}}
+    .section-5 {
+      width: 300px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003559}}
+.section-6 {
+  padding: 0 0 91px 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003563}}
+  .section-6 .box {
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003565}}
+    .section-6 .box h3 {
+      line-height: 33px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003568}}
+    .section-6 .box h3 + p {
+      margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003575}}
+.section-7 {
+  position: relative;
+  padding: 80px 0 91px 0;
+  text-align: center;
+  padding-left: 63px;
+  padding-right: 63px; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003575}}
+    .section-7 {
+      padding-left: 0;
+      padding-right: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003588}}
+  .section-7 .box {
+    position: relative;
+    padding: 23px 0 23px 101px;
+    color: #65c958;
+    display: inline-block;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003596}}
+    .section-7 .box em {
+      font-size: 17px;
+      font-weight: 400;
+      color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003602}}
+    .section-7 .box .img {
+      margin: 0;
+      display: block;
+      position: absolute;
+      left: -4px;
+      top: 4px;
+      border-radius: 50%;
+      overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003614}}
+.section-8 {
+  padding: 32px 0 24px 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003618}}
+  .section-8 ul {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003623}}
+    .section-8 ul li {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003625}}
+      .section-8 ul li a:hover {
+        color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003628}}
+      .section-8 ul li + li {
+        margin-left: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003633}}
+.section-9 {
+  padding: 54px 0 54px 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003637}}
+  .section-9 .box {
+    display: inline-block;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003641}}
+  .section-9 h3 {
+    margin-top: 10px;
+    float: left; }
+    @media (max-width: 979px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003641}}
+      .section-9 h3 {
+        float: none;
+        margin-bottom: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003649}}
+  .section-9 form {
+    float: left;
+    margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003652}}
+    .section-9 form label {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003655}}
+    .section-9 form .btn {
+      margin-top: 0;
+      margin-left: 10px;
+      float: left; }
+      @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003655}}
+        .section-9 form .btn {
+          float: none;
+          margin-top: 20px; } }
+
+/*==================    Backgrounds    ======================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003668}}
+.bg-1 {
+  background: #f7f7f7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003671}}
+.bg-2 {
+  background: #65c958; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003674}}
+.bg-3 {
+  background: #ffffff; }
+
+/*========================================================
+                     FOOTER  Section
+=========================================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003684}}
+.copyright {
+  padding: 29px 0 20px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003690}}
+  .copyright em {
+    padding: 0 7px 0 48px;
+    position: relative;
+    font-size: 33px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003698}}
+    .copyright em a:hover {
+      color: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003701}}
+  .copyright .icon {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/style\.scss}line{font-family:\00003708}}
+  .copyright a:hover {
+    color: #65c958; }

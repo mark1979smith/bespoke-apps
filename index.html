@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no"/>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/booking.css"/>
+  <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+
+	<!--[if lt IE 9]>
+	<html class="lt-ie9">
+	<div style='clear: both; text-align:center; position: relative;'>
+		<a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+			<img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+				 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+		</a>
+	</div>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	<script src='js/device.min.js'></script>
+</head>
+
+<body>
+<div class="page">
+	<!--========================================================
+							  HEADER
+	=========================================================-->
+	<header id="home">
+		<div class="header_panel">
+			<div class="container">
+				<div class="brand">
+					<h1 class="brand_name"><a href="./"><span class="icon flaticon-cup55"></span>wrico</a></h1>
+					<p class="brand_slogan">Landing page theme</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="grid_6">
+					<div class="box-1">
+						<h2><em>Create cute websites </em><br>fast with us!</h2>
+						<ul class="marked-list">
+							<li>
+								<h3><a href="#">Conversion rate guided</a></h3>
+								<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</li>
+							<li>
+								<h3><a href="#">Fully responsive</a></h3>
+								<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</li>
+							<li>
+								<h3><a href="#">Designed to sell</a></h3>
+								<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="grid_6 bg-1">
+					<div class="box-2">
+						<h2>Request a quote now!</h2>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<form id="bookingForm" class="booking-form">
+						  <div class="tmInput">
+								<input name="Name" placeHolder="Name" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+						  </div>
+							<div class="tmInput">
+								<input name="Email:" placeHolder="E-mail:" type="text" data-constraints='@NotEmpty @Required @Email'>
+							</div>
+							<select name="Topic" class="tmSelect manual" data-constraints="@NotEmpty @Required">
+								<option>'Tell us what you need'</option>
+								<option>option 1</option>
+								<option>option 2</option>
+								<option>option 3</option>
+								<option>option 4</option>
+							</select>
+							<div class="tmTextarea">
+								<textarea name="Details" placeHolder="Details" data-constraints='@NotEmpty @Required'></textarea>
+							</div>
+						  <a href="#" class="btn" data-type="submit">Get a quote!</a>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!--========================================================
+							  CONTENT
+	=========================================================-->
+	<main>
+		<div class="well bg-1">
+			<section class="section-1 container" id="about">
+				<div class="row">
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-notebook79"></div>
+							<h3><a href='#'>Responsive Design</a></h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-hand226"></div>
+							<h3><a href='#'>Cross-Browser Support</a></h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-bulb19"></div>
+							<h3><a href='#'>Creative Design</a></h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-gift84"></div>
+							<h3>
+								<a href='#'>Bootstrap 3.1</a>
+							</h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-sheet3"></div>
+							<h3>
+								<a href='#'>100 Icon Fonts</a>
+							</h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box-3">
+							<div class="icon flaticon-screwdriver26"></div>
+							<h3>
+								<a href='#'>More Features</a>
+							</h3>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="well">
+			<section class="section-2 container">
+				<div class="row">
+					<div class="grid_6">
+						<div class="img"><img src="images/img01.jpg" alt=""/></div>
+					</div>
+					<div class="grid_6">
+						<h2>Discover the advantages</h2>
+
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						   laboris
+						   nisi ut aliquip ex ea commodo.</p>
+						<ul>
+							<li>
+								<span class="icon flaticon-password19"></span>
+								<a href='#'>Lorem ipsum dolor sit amet</a>
+							</li>
+							<li>
+								<span class="icon flaticon-message30"></span>
+								<a href='#'>Conse ctetur adipisicing</a>
+							</li>
+							<li>
+								<span class="icon flaticon-setting5"></span>
+								<a href='#'>Elit sed do eiusmod tempor</a>
+							</li>
+							<li>
+								<span class="icon flaticon-briefcase65"></span>
+								<a href='#'>Incididunt ut labore</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section-3" id="features">
+				<div class="box" data-equal-group="equal-1">
+					<div class="icon flaticon-download3"></div>
+					<h3><a href='#'>Your Data in Cloud</a></h3>
+					<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+				<div class="box" data-equal-group="equal-1">
+					<div class="icon flaticon-gift84"></div>
+					<h3><a href='#'>Monthly Rewards</a></h3>
+					<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+				<div class="box" data-equal-group="equal-1">
+					<div class="icon flaticon-rain2"></div>
+					<h3><a href='#'>24/7 Support</a></h3>
+					<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+			</section>
+			<section class="section-4 container" id="pricing">
+				<h2>Pricing</h2>
+
+				<div class="row">
+					<div class="grid_4">
+						<div class="box" data-equal-group="equal-2">
+							<h3>Elementary</h3>
+
+							<p><em>$158</em> / month</p>
+							<hr/>
+							<ul class="marked-list">
+								<li><a href='#'>Lorem ipsum dolor sit amet</a></li>
+								<li><a href='#'>Conse ctetur adipisicing</a></li>
+								<li><a href='#'>Elit sed do eiusmod tempor</a></li>
+								<li><a href='#'>Incididunt ut labore</a></li>
+							</ul>
+							<a class="btn" href='#'>Buy now!</a>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box" data-equal-group="equal-2">
+							<h3>Advanced</h3>
+
+							<p><em>$178</em> / month</p>
+							<hr/>
+							<ul class="marked-list">
+								<li><a href='#'>Lorem ipsum dolor sit amet</a></li>
+								<li><a href='#'>Conse ctetur adipisicing</a></li>
+								<li><a href='#'>Elit sed do eiusmod tempor</a></li>
+								<li><a href='#'>Incididunt ut labore</a></li>
+							</ul>
+							<a class="btn" href='#'>Buy now!</a>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="box" data-equal-group="equal-2">
+							<h3>Premium</h3>
+
+							<p><em>$198</em> / month</p>
+							<hr/>
+							<ul class="marked-list">
+								<li><a href='#'>Lorem ipsum dolor sit amet</a></li>
+								<li><a href='#'>Conse ctetur adipisicing</a></li>
+								<li><a href='#'>Elit sed do eiusmod tempor</a></li>
+								<li><a href='#'>Incididunt ut labore</a></li>
+							</ul>
+							<a class="btn" href='#'>Buy now!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-5" id="gallery">
+				<h2>Gallery</h2>
+
+				<div class="box">
+					<a data-fancybox-group="gallery" class="thumb" href="images/gallery/gallery01.jpg">
+						<img src="images/gallery-thumb01.jpg" alt=""/>
+						<span class="thumb_overlay"></span>
+					</a>
+					<a data-fancybox-group="gallery" class="thumb" href="images/gallery/gallery02.jpg">
+						<img src="images/gallery-thumb02.jpg" alt=""/>
+						<span class="thumb_overlay"></span>
+					</a>
+					<a data-fancybox-group="gallery" class="thumb" href="images/gallery/gallery03.jpg">
+						<img src="images/gallery-thumb03.jpg" alt=""/>
+						<span class="thumb_overlay"></span>
+					</a>
+					<a data-fancybox-group="gallery" class="thumb" href="images/gallery/gallery04.jpg">
+						<img src="images/gallery-thumb04.jpg" alt=""/>
+						<span class="thumb_overlay"></span>
+					</a>
+				</div>
+			</section>
+			<section class="section-6 container" id="faqs">
+				<h2>FAQs</h2>
+
+				<div class="row">
+					<div class="grid_6">
+						<div class="box">
+							<h3>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</h3>
+
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+					<div class="grid_6">
+						<div class="accordion">
+							<h4 class="accordion_header">Lorem ipsum dolor sit amet conse cteturuis nostrud </h4>
+							<p class="accordion_cnt">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+							<h4 class="accordion_header">Adipisicing elit sed do eiusmod tempor</h4>
+							<p class="accordion_cnt">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+							<h4 class="accordion_header">Incididunt ut labore et dolore magna aliqua</h4>
+							<p class="accordion_cnt">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="well bg-1">
+			<section class="section-7 container" id="testimonials">
+				<div class="box">
+					<div class="img"><img src="images/img02.jpg" alt=""/></div>
+					<p><em>Tom Cooper</em></p>
+					<p>Company customer</p>
+				</div>
+				<blockquote>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</blockquote>
+			</section>
+		</div>
+	</main>
+
+	<!--========================================================
+							  FOOTER
+	=========================================================-->
+	<footer>
+		<div class="well bg-2">
+			<section class="section-8">
+				<ul>
+					<li>
+						<a href='#'><span class="fa fa-facebook"></span></a>
+					</li>
+					<li>
+						<a href='#'><span class="fa fa-twitter"></span></a>
+					</li>
+					<li>
+						<a href='#'><span class="fa fa-skype"></span></a>
+					</li>
+					<li>
+						<a href='#'><span class="fa fa-google-plus"></span></a>
+					</li>
+					<li>
+						<a href='#'><span class="fa fa-instagram"></span></a>
+					</li>
+					<li>
+						<a href='#'><span class="fa fa-vimeo-square"></span></a>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<div class="well bg-3">
+			<section class="section-9 container" id="subscribe">
+				<div class="box">
+					<h3>Subscribe</h3>
+
+					<form id="subscribe-form" class="subscribe-form">
+						<div class="success">Your subscription request has been sent!</div>
+						<label class="email">
+							<input type="email" value="Enter your email">
+							<span class="error">*Invalid email.</span>
+						</label>
+						<a data-type="submit" href="#" class="btn">Subscribe</a>
+					</form>
+				</div>
+			</section>
+		</div>
+		<div class="container">
+			<div class="copyright">
+				<em>
+					<a href="./"><span class="icon flaticon-cup55"></span> wrico</a>
+				</em>
+				© <span id="copyright-year"></span> |
+				<a href="#">Privacy Policy</a>
+				<!-- {%FOOTER_LINK} -->
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/script.js"></script>
+<!-- coded by nyan -->
+</body>
+</html>
