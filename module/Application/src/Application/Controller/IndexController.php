@@ -9,6 +9,7 @@
 
 namespace Application\Controller;
 
+use Application\Form\ContactForm;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
@@ -16,6 +17,10 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-        return new ViewModel();
+        $contact_form = new ContactForm();
+
+        return [
+            'contact_form' => $contact_form
+        ];
     }
 }
