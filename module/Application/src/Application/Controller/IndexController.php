@@ -11,7 +11,6 @@ namespace Application\Controller;
 
 use Application\Form\ContactForm;
 use Zend\Mvc\Controller\AbstractActionController;
-use Zend\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
