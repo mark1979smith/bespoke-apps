@@ -12,12 +12,12 @@ Varsion: 1.1
 (function($){
 	$.fn.bookingForm=function(options){
 		return this.each(function(){
-			var $this = $(this),
-			data = $this.data('bookingForm'),
+			var $this = $(this);
+            var data = $this.data('bookingForm');
 			object = {
-				url: 'bat/booking.php', // php-script url
+				url: $this.attr('action'), // php-script url
 				sender: '', // sender for header in e-mail
-				ownerEmail:'support@template-help.com', // destination e-mail, message will be send on this e-mail
+				ownerEmail:'webmaster@bespoke-apps.co.uk', // destination e-mail, message will be send on this e-mail
 				validate:true, // validate or not
 				errorMessageClass:'.error-message', // error-message class
 				successMessageClass:'.success-message', // success-message class

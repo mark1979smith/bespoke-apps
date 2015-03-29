@@ -46,12 +46,18 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/booking\.scss}line{font-family:\0000360}}
   * + .booking-form {
     margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/booking\.scss}line{font-family:\0000348}}
+.booking-form div ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 12px;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/wamp\/www\/landing\/01\.February\/02\.Mercury\.25593\.landing\.nyan\/new\/2-develop\/site\/sass\/booking\.scss}line{font-family:\0000364}}
   .booking-form .btn {
     width: 100%;
     text-align: center;
     font-size: 22px;
-    line-height: 57px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }

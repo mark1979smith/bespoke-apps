@@ -38,23 +38,28 @@
                         <p>Send us as much information as possible so we can assist you.</p>
                         <?
                         $contact_form
-                            ->setAttribute('action', $this->url())
+                            ->setAttribute('action', $this->url('home'))
                             ->setAttribute('id', 'bookingForm')
                             ->setAttribute('class', 'booking-form');
                         echo $this->form()->openTag($contact_form);
                         echo '<div class="tmInput">';
-                        echo $this->formRow($contact_form->get('Name'));
+                        $name = $contact_form->get('Name');
+                        echo $this->formRow($name);
                         echo '</div>';
                         echo '<div class="tmInput">';
                         echo $this->formRow($contact_form->get('Email'));
                         echo '</div>';
                         echo '<div class="tmInput">';
                         echo $this->formRow($contact_form->get('Telephone'));
+
                         echo '</div>';
                         echo '<div class="tmTextarea">';
                         echo $this->formRow($contact_form->get('Details'));
                         echo '</div>';
-                        echo '<a class="btn" data-type="submit">Get a quote!</a>';
+                        echo '<a class="btn js-show" style="display: none;" data-type="submit">Get a quote!</a>';
+                        echo '<div class="js-hide submitForm">';
+                        echo $this->formRow($contact_form->get('Submit'));
+                        echo '</div>';
                         echo $this->form()->closeTag();
                         ?>
 

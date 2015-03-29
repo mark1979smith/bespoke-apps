@@ -34,7 +34,7 @@ class ContactForm  extends Form
          */
         $this->add([
             'name' => 'Email',
-            'type' => 'Text',
+            'type' => 'Zend\Form\Element\Email',
             'attributes' => [
                 'placeholder'       => 'Email:',
                 'data-constraints'  => '@NotEmpty @Required @Email'
@@ -58,7 +58,7 @@ class ContactForm  extends Form
          */
         $this->add([
             'name' => 'Details',
-            'type' => 'Textarea',
+            'type' => 'Zend\Form\Element\Textarea',
             'attributes' => [
                 'placeholder'       => 'Details:',
                 'data-constraints'  => '@NotEmpty @Required'

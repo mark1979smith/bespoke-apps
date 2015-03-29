@@ -12,5 +12,19 @@
  */
 
 return array(
-    // ...
+    'email' => array(
+        'auth' => array(
+            'name' => 'bespoke-apps.co.uk',
+            'host' => 'smtp.gmail.com',
+            'connection_class' => 'login',
+            'port' => '465',
+            'connection_config' => array(
+                'ssl' => 'ssl',
+            )
+        ),
+        'defaults' => array(
+            'to_address' => 'webmaster@bespoke-apps.co.uk',
+            'from_address' => 'webmaster@bespoke-apps.co.uk',
+        )
+    )
 );
